@@ -9,8 +9,8 @@ from payman_sdk.client import PaymanClient
 from payman_sdk.types import PaymanConfig
 
 # === Setup Payman Client ===
-PAYMAN_CLIENT_ID = st.secrets[PAYMAN_CLIENT_ID]
-PAYMAN_CLIENT_SECRET = st.secrets[PAYMAN_CLIENT_SECRET]
+PAYMAN_CLIENT_ID = st.secrets["PAYMAN_CLIENT_ID"]
+PAYMAN_CLIENT_SECRET = st.secrets["PAYMAN_CLIENT_SECRET"]
 
 config: PaymanConfig = {
     'client_id': PAYMAN_CLIENT_ID,
@@ -19,7 +19,8 @@ config: PaymanConfig = {
 client = PaymanClient.with_credentials(config)
 
 # === Tavily Client ===
-tavily = TavilyClient(api_key="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")
+TAVILY_API_KEY = st.secrets["TAVILY_API_KEY"]
+tavily = TavilyClient(api_key=TAVILY_API_KEY)
 
 # === Purchase Log File ===
 LOG_FILE = "stock_log.csv"
