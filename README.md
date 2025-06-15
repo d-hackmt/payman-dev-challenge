@@ -1,5 +1,8 @@
 # PAYMAN DEV CHALLENGE 
 
+![image](https://github.com/user-attachments/assets/43239be3-e8d3-440f-a115-a155145f23d1)
+
+
 please feel free to try and contribute : https://tradepay.streamlit.app/
 
 ## 🤖 AI-Powered Stock Trader with Payman
