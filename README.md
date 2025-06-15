@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/43239be3-e8d3-440f-a115-a155145f23d1)
 
+demo video : https://drive.google.com/file/d/1cfok6L5i5eEL0fIheoAMqp71x0sNp4LR/view?usp=sharing
+
 
 please feel free to try and contribute : https://tradepay.streamlit.app/
 
@@ -81,7 +83,7 @@ streamlit run stock.py
 
 ## 🤝 Credits
 
-Payman.ai for payment SDK
+Payman.ai for payment SDK  - https://pypi.org/project/paymanai-sdk/
 
 Tavily AI for trending search
 
