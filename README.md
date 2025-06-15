@@ -5,7 +5,7 @@
 demo video : https://drive.google.com/file/d/1cfok6L5i5eEL0fIheoAMqp71x0sNp4LR/view?usp=sharing
 
 
-please feel free to try and contribute : https://tradepay.streamlit.app/
+please feel free to try the live app and contribute : https://tradepay.streamlit.app/
 
 ## 🤖 AI-Powered Stock Trader with Payman
 
