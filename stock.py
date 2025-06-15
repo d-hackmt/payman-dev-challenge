@@ -9,8 +9,8 @@ from payman_sdk.client import PaymanClient
 from payman_sdk.types import PaymanConfig
 
 # === Setup Payman Client ===
-PAYMAN_CLIENT_ID = 'pm-test-TGrJoZgMIxt6hAA1ec6IYTic'
-PAYMAN_CLIENT_SECRET = 'JfbUUVB-CAjeTeJySb7nhbQlCb47g9JEtlkuIgFs8lbHsXwyRDgHeCtI_AzzlxS0'
+PAYMAN_CLIENT_ID = st.secrets[PAYMAN_CLIENT_ID]
+PAYMAN_CLIENT_SECRET = st.secrets[PAYMAN_CLIENT_SECRET]
 
 config: PaymanConfig = {
     'client_id': PAYMAN_CLIENT_ID,
